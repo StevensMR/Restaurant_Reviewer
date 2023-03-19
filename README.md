@@ -7,7 +7,7 @@ Updated both BERT and TextBlob models on 16 Mar 23
 
 ## Project Description
 
-This is a machine learning classification model written in Python, utilizing SciKit-Learn's models to train a classification model on a dataset of Titanic passengers to predict the survivors from a second list of Titanic passengers.   
+This is a machine learning classification model written in Python, utilizing SciKit-Learn's models to train a classification model on a dataset of restaurant reviews to predict the favorabilty of a review based on the text of the review.   
 
 ###  Files
   
