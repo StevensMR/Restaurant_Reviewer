@@ -42,7 +42,8 @@ This place has a lot of promise but fails to deliver. (Expect that "a lot to pro
 
 
 ### Examples of False Positives (Favorable Review, Unfavorable Prediction)
-Nice blanket of moz over top but i feel like this was done to cover up the subpar food. (Not sure why this is a favorable review)
+Nice blanket of moz over top but i feel like this was done to cover up the subpar food. _(Not sure why this is a favorable review)_
+
 Plus, it's only 8 bucks.
 
 ## Credits
