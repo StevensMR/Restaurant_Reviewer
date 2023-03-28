@@ -37,14 +37,16 @@ The BERT Model (using BERT) produced around 91% accuracy (test size = 250)
 The TextBlob model was the first model I produced, and probably could have used more techniques to tokenize the words and to use TextBlob functions to cut the words down to the root.  I also expect that using a pre-trained model with BERT enabled BERT to already understand synonyms and negating words (e.g. "not good" is unfavorable sentiment vice positive sentiment), while I suspect that using TextBlob relied only the training set to look for examples of positive or negative language, and a larger dataset would probably produce better results.  
 
 ### Examples of False Positives (Unfavorable Review, Favorable Prediction)
-I have been to very few places to eat that under no circumstances would I ever return to, and this tops the list. (Expect that "this tops the list" caused the model to predict this was a favorable review)
-This place has a lot of promise but fails to deliver. (Expect that "a lot to promise" caused the model to predict this was a favorable review)
+* I have been to very few places to eat that under no circumstances would I ever return to, and this tops the list. 
+** Programmer comment: Expect that "this tops the list" caused the model to predict this was a favorable review
+* This place has a lot of promise but fails to deliver. (Expect that "a lot to promise" caused the model to predict this was a favorable review)
 
 
 ### Examples of False Positives (Favorable Review, Unfavorable Prediction)
-Nice blanket of moz over top but i feel like this was done to cover up the subpar food. _(Not sure why this is a favorable review)_
+* Nice blanket of moz over top but i feel like this was done to cover up the subpar food. 
+** Programmer comment: _Not sure why this is a favorable review_
 
-Plus, it's only 8 bucks.
+* Plus, it's only 8 bucks.
 
 ## Credits
 All code modified and adapted by Mike Stevens (https://github.com/StevensMR) from the sources listed above
