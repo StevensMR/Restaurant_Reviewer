@@ -38,13 +38,13 @@ The TextBlob model was the first model I produced, and probably could have used 
 
 ### Examples of False Positives (Unfavorable Review, Favorable Prediction)
 * I have been to very few places to eat that under no circumstances would I ever return to, and this tops the list. 
-** Programmer comment: Expect that "this tops the list" caused the model to predict this was a favorable review
+    * Programmer comment: Expect that "this tops the list" caused the model to predict this was a favorable review
 * This place has a lot of promise but fails to deliver. (Expect that "a lot to promise" caused the model to predict this was a favorable review)
 
 
 ### Examples of False Positives (Favorable Review, Unfavorable Prediction)
 * Nice blanket of moz over top but i feel like this was done to cover up the subpar food. 
-** Programmer comment: _Not sure why this is a favorable review_
+    * Programmer comment: _Not sure why this is a favorable review_
 
 * Plus, it's only 8 bucks.
 
